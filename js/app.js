@@ -6,15 +6,6 @@ import Datos from './datos.js';
 let video = new Video("app", Datos.video.url);
 video.render();
 
-//** click in iframe to run youtube video*/
-let iframe = document.querySelector('video');
-iframe.addEventListener('click', function () {
-    iframe.classList.add('playing-mode');
-});
-
-
-/** exejute click on iframe */
-
 
 
 
